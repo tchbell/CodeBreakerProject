@@ -12,7 +12,7 @@ function guess() {
 }
 
 //implement new functions here
-function setHiddenFields(){
+let setHiddenFields = function (){
     attempt = 0;
     answer = return Math.floor(Math.random() * (9999 - 0 +1)) + 0;
     answer = answer.toString();
